@@ -6,10 +6,6 @@ import { Eye } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import InvoiceForm from "@/components/InvoiceForm";
 
-interface Preview{
-
-}
-
 export default function Home() {
   const [showPreview, setShowPreview] = useState(false);
 
